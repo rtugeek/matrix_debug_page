@@ -37,7 +37,6 @@ class _MatrixDebugPageState extends State<MatrixDebugPage> {
       sb.writeln('Manufacturer: ${androidInfo.manufacturer}');
       sb.writeln('Product: ${androidInfo.product}');
       sb.writeln('Model: ${androidInfo.model}');
-      sb.writeln('Android Id: ${androidInfo.androidId}');
       // sb.writeln('Size: ${ScreenUtil().screenWidth}x${ScreenUtil().screenHeight}');
       PackageInfo packageInfo = await PackageInfo.fromPlatform();
       sb.writeln('App Version:${packageInfo.version}');
